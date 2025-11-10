@@ -97,7 +97,7 @@ def next_turn(user_input: str) -> str:
         label = understand_topic(context, user_input)
 
         if label == "YES":
-            text += "\n\nIt looks like you really understand this topic! 🎉"
+            text += "\n\nIt looks like you really understand this topic!"
             mode = "done"
 
         elif label == "CORRECT":
